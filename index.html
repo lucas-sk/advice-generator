@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="generate a advice" />
+    <title>Frontend Mentor | Advice generator app</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="advice-container">
+        <p class="id-advice">ADVICE #0</p>
+        <q class="text-advice"> Click the dice to generate one advice </q>
+        <picture>
+          <source
+            srcset="/images/pattern-divider-desktop.svg"
+            media="(min-width: 1240px)"
+          />
+          <img src="./images/pattern-divider-mobile.svg" alt="" />
+        </picture>
+        <button class="btn" role="button">
+          <img src="./images/icon-dice.svg" alt="dice" />
+        </button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
